@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="contaneir-principal">
+        <div class="first-contaneir">
+            <div class="contaneir-images">
+                <img src="../../Assets/+.png" alt="mais" id="img1">
+                <img src="../../Assets/groupbig.png" alt="caixa1" id="img2">
+                <img src="../../Assets/x.png" alt="x"  id="img3">
+                <img src="../../Assets/circulo.png" alt="circulo" id="img4">
+                <img src="../../Assets/groupsmall.png" alt="caixa2" id="img5">
+                <img src="../../Assets/circulo.png" alt="circulo" id="img6">
+                <img src="../../Assets/circulo.png" alt="circulo" id="img7">
+                <img src="../../Assets/Group.png" alt="caixa3" id="img8">
+                <img src="../../Assets/x.png" alt="x" id="img9">
+                <img src="../../Assets/groupsmall.png" alt="caixa4" id="img10">
+                <img src="../../Assets//luneta.png" alt="luneta" id="img11">
+            </div>
+            <div class="titulo">
+                <img src="../../Assets/Proffy.png" alt="Proffy">
+            </div>
+            <div class="subtitulo">
+                <img src="../../Assets/subtitulo.png" alt="Sua plataforma de estudos online.">
+            </div>
+        </div>
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Fazer login</legend>
+
+                    <div class="input-block">
+                        <label for="email" id="label1">E-mail</label>
+                        <input type="email" name="email" id="email" maxlength="255" autocomplete="email" onkeydown="script()" onkeyup="exclude()">
+                    </div>
+                    <div class="input-block">
+                        <label for="password" id="label2">Senha</label>
+                        <input type="password" name="password" id="password" maxlength="200" autocomplete="current-password" onkeydown="script2()" onkeyup="exclude2()">
+                        <div class="icon1">
+                            <img src="../../Assets/Eye.png" alt="olho aberto" id="olho1" onclick="ver()">
+                        </div>
+                        <div class="icon2">
+                            <img src="../../Assets/EyeOff.png" alt="olho fechado" id="olho2" onclick="esconder()">
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <div class="checkbox">
+                            <div class="input-checkbox">
+                                <input type="checkbox" name="box" id="box" checked>
+                            </div>
+                            <label for="box">Lembrar-me</label>
+                        </div>
+                        <div class="forgot-pass">
+                            <a href="../Forgot Password/index.html">Esqueci minha senha</a>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="btn-entrar">
+                        <button type="submit" id="button"><a href="../HomePage/index.html">Entrar</a></button>
+                </div>
+                <div class="cadastro">
+                    <div class="acess">
+                        <p>Não tem conta? <br> <a href="../Cadastro/index.html">Cadastre-se</a></p>
+                    </div>
+                    <div class="free">
+                        <span>É de graça</span> 
+                        <img src="../../Assets//heart.png" alt="coração">
+                    </div>
+                </div>
+            </form>
+        </main>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

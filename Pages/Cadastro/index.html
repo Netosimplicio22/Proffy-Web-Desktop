@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastre-se</title>
+</head>
+<body>
+    <div class="contaneir-principal">
+        <main>
+            <div class="toback">
+                <a href="../Login/index.html">
+                    <img src="../../Assets/SetaLonga.png" alt="seta para voltar ao login">
+                </a>
+            </div>
+            <form>
+                <fieldset>
+                    <legend>Cadastro</legend>
+                    <p>Preencha os dados abaixo <br> para começar.</p>
+    
+                    <div class="input-block">
+                        <label for="nome" id="label1">Nome</label>
+                        <input type="text" name="nome" id="nome" maxlength="200" onkeydown="toname()" onkeyup="backname()">
+                    </div>
+                    <div class="input-block">
+                        <label for="sobrenome" id="label2">Sobrenome</label>
+                        <input type="text" name="sobrenome" id="sobrenome" maxlength="255" onkeydown="tosobre()" onkeyup="backsobre()">
+                    </div>
+                    <div class="input-block">
+                        <label for="email" id="label3">E-mail</label>
+                        <input type="email" name="email" id="email" maxlength="255" autocomplete="email" onkeydown="toemail()" onkeyup="backemail()">
+                    </div>
+                    <div class="input-block">
+                        <label for="password" id="label4">Senha</label>
+                        <input type="password" name="password" id="password" maxlength="200" autocomplete="current-password" onkeydown="topass()" onkeyup="backpass()">
+                        <div class="icon1">
+                            <img src="../../Assets/Eye.png" alt="ver senha" id="olho1" onclick="ver()">
+                        </div>
+                        <div class="icon2">
+                            <img src="../../Assets/EyeOff.png" alt="esconder senha" id="olho2" onclick="esconder()">
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="btn-cadastrar">
+                    <button type="submit"><a href="./Conclued/index.html">Concluir cadastro</a></button>
+                </div>
+            </form>
+        </main>
+        <div class="segund-contaneir">
+            <div class="contaneir-images">
+                <img src="../../Assets/+.png" alt="mais" id="img1">
+                <img src="../../Assets/groupbig.png" alt="caixa1" id="img2">
+                <img src="../../Assets/x.png" alt="x"  id="img3">
+                <img src="../../Assets/circulo.png" alt="circulo" id="img4">
+                <img src="../../Assets/groupsmall.png" alt="caixa2" id="img5">
+                <img src="../../Assets/circulo.png" alt="circulo" id="img6">
+                <img src="../../Assets/circulo.png" alt="circulo" id="img7">
+                <img src="../../Assets/Group.png" alt="caixa3" id="img8">
+                <img src="../../Assets/x.png" alt="x" id="img9">
+                <img src="../../Assets/groupsmall.png" alt="caixa4" id="img10">
+                <img src="../../Assets//luneta.png" alt="luneta" id="img11">
+            </div>
+            <div class="titulo">
+                <img src="../../Assets/Proffy.png" alt="Proffy">
+            </div>
+            <div class="subtitulo">
+                <img src="../../Assets/subtitulo.png" alt="Sua plataforma de estudos online.">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+#Projeto Proffy Web desktop
+
+Web site proposto pela plataforma de estudos sobre programação rocketseat, feit com HTML, CSS e JavaScript puro. Nesse projeto vamos até nossa Home, onde o foco foi voltado para páginas de login, cadastro e redefinição de senha do usuário. Dessa forma, temos conteúdo, estilo e interatividade de acordo com o que foi proposto pela rockeseat. Como dito anteriomente, a página é desktop, ou seja, sem responsividade para o usuário acessar em outros aparelhos.
